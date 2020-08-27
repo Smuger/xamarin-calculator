@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.companyname.project13.MainActivity">
+    <EditText
+        android:id="@+id/resultEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+    
+    <GridLayout
+    android:id="@+id/GridLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="6"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/clearButton"
+        android:text="@string/clear_button_label"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/mRCButton"
+        android:text="@string/mrc_button_label"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/mMinusButton"
+        android:text="@string/mminus_button_label"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/mPlusButton"
+        android:text="@string/mplus_button_label"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/offButton"
+        android:text="@string/off_button_label"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/sqrtButton"
+        android:text="@string/sqrt_button_label"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/percentageButton"
+        android:text="@string/percentage_button_label"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/divideButton"
+        android:text="@string/divide_button_label"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/sevenButton"
+        android:text="@string/seven_button_label"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/eightButton"
+        android:text="@string/eight_button_label"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/nineButton"
+        android:text="@string/nine_button_label"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/multiplyButton"
+        android:text="@string/multiply_button_label"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/fourButton"
+        android:text="@string/four_button_label"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/fiveButton"
+        android:text="@string/five_button_label"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/sixButton"
+        android:text="@string/six_button_label"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/minusButton"
+        android:text="@string/minus_button_label"
+        android:layout_column="3"
+        android:layout_row="3"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/oneButton"
+        android:text="@string/one_button_label"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/twoButton"
+        android:text="@string/two_button_label"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/threeButton"
+        android:text="@string/three_button_label"
+        android:layout_column="2"
+        android:layout_row="4"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/plusButton"
+        android:text="@string/plus_button_label"
+        android:layout_column="3"
+        android:layout_row="4"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/zeroButton"
+        android:text="@string/zero_button_label"
+        android:layout_column="0"
+        android:layout_row="5"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/dotButton"
+        android:text="@string/dot_button_label"
+        android:layout_column="1"
+        android:layout_row="5"
+        android:layout_gravity="fill"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/equalButton"
+        android:text="@string/equal_button_label"
+        android:layout_column="2"
+        android:layout_row="5"
+        android:layout_gravity="fill"/>
+
+    </GridLayout>
+</LinearLayout>
